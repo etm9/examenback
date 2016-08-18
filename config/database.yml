@@ -2,33 +2,33 @@
 default: &default
   adapter: postgresql
   encoding: unicode
-  database: todolist1
+  database: examenback
   pool: 5
-  username: todolist
+  username: examenb
   password: 123456789
 
 development:
   adapter: postgresql
   encoding: unicode
-  database: todolist1
+  database: examenback
   pool: 5
-  username: todolist
+  username: examenb
   password: 123456789
 
 
 development:
   adapter: postgresql
   encoding: unicode
-  database: todolist1
+  database: examenback
   pool: 5
-  username: todolist
+  username: examenb
   password: 123456789
 
 
 production:
   adapter: postgresql
   encoding: unicode
-  database: todolist1
+  database: examenback
   pool: 5
-  username: todolist
+  username: examenb
   password: 123456789

@@ -1,0 +1,34 @@
+
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  database: todolist1
+  pool: 5
+  username: todolist
+  password: 123456789
+
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: todolist1
+  pool: 5
+  username: todolist
+  password: 123456789
+
+
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: todolist1
+  pool: 5
+  username: todolist
+  password: 123456789
+
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: todolist1
+  pool: 5
+  username: todolist
+  password: 123456789
